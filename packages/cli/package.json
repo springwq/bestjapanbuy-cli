@@ -1,0 +1,47 @@
+{
+  "name": "bestjapanbuy",
+  "version": "0.1.0",
+  "description": "BestJapanBuy 命令行：来日本买什么、退税后多少钱、能不能带回国用、去哪买",
+  "type": "module",
+  "bin": {
+    "bestjapanbuy": "dist/cli.js",
+    "bjb": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "homepage": "https://bestjapanbuy.com/developers/",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@bestjapanbuy/core": "0.1.0",
+    "@bestjapanbuy/mcp": "0.1.0",
+    "esbuild": "^0.25.0"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node test/smoke.mjs"
+  },
+  "keywords": [
+    "japan",
+    "appliances",
+    "rice-cooker",
+    "tax-free",
+    "mcp",
+    "cli",
+    "日本",
+    "家电"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/springwq/bestjapanbuy-cli"
+  }
+}

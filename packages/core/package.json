@@ -1,0 +1,15 @@
+{
+  "name": "@bestjapanbuy/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "BestJapanBuy 数据读取与计算（价格与退税、兼容性、门店距离、搜索、向导）",
+  "exports": {
+    ".": "./src/index.js",
+    "./load-fs": "./src/load-fs.js",
+    "./load-api": "./src/load-api.js",
+    "./search": "./src/search.js",
+    "./weekly": "./src/weekly.js"
+  },
+  "dependencies": { "yaml": "^2.5.0" }
+}

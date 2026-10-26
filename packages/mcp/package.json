@@ -1,0 +1,16 @@
+{
+  "name": "@bestjapanbuy/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "BestJapanBuy tools used by the CLI and its local stdio MCP server (the hosted server is not included)",
+  "exports": {
+    ".": "./src/index.js",
+    "./tools": "./src/tools.js"
+  },
+  "dependencies": {
+    "@bestjapanbuy/core": "0.1.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^3.25.0"
+  }
+}

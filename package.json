@@ -1,0 +1,14 @@
+{
+  "name": "bestjapanbuy-cli-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/core",
+    "packages/mcp",
+    "packages/cli"
+  ],
+  "scripts": {
+    "build": "npm run build -w packages/cli",
+    "test": "npm test -w packages/cli"
+  }
+}
