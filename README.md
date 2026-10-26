@@ -2,7 +2,7 @@
 
 Source code of the [BestJapanBuy](https://bestjapanbuy.com) command-line tool (日本买明白 命令行工具): search Japanese products, check whether they work in your country (voltage, plug, customs, flights), estimate tax-free prices, and find stores. It also runs a local stdio MCP server for AI assistants.
 
-This repository is a read-only mirror, synced automatically from the private source repository. Source commit: `183aa7bc3c70d4cba711ac91d751ef40586e846f`.
+This repository is a read-only mirror, synced automatically from the private source repository. Source commit: `5ad6bc86ba5bbf12c3695daa54bb04c70c6c5cfa`.
 
 ## What it does and does not do
 
